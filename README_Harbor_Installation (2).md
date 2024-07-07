@@ -1,24 +1,3 @@
-
-1. **Acesse o servidor:**
-   ```bash
-   $ ssh -i curso.pem ubuntu@3.239.91.96
-   ```
-
-2. **Instalar Docker:**
-   ```bash
-   $ sudo su
-   $ curl https://releases.rancher.com/install-docker/19.03.sh | sh
-   $ usermod -aG docker ubuntu
-   ```
-
-3. **Instalar Docker Compose:**
-   ```bash
-   $ apt-get install git -y
-   $ curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-   $ chmod +x /usr/local/bin/docker-compose
-   $ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-   ```
-
 4. **Baixar e descompactar o instalador do Harbor:**
    ```bash
    $ cd /home/ubuntu
