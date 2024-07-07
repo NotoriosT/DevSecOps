@@ -25,7 +25,11 @@ Edite o arquivo `docker-compose.yml` no repositório para configurar o GitLab co
 ### 3. Criar o volume e iniciar o contêiner
 
 Navegue até o diretório onde o arquivo `docker-compose.yml` está localizado e execute os seguintes comandos:
-
+- Crie uma pasta /data no sistema de arquivos para armazenar os dados persistentes do GitLab:
+```bash
+mkdir -p /data
+```
+- Inicie o contêiner do GitLab:
 ```bash
 docker-compose up -d
 ```
