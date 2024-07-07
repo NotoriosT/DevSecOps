@@ -16,6 +16,7 @@ Siga as instruções oficiais para instalar o Docker e o Docker Compose:
 
 - [Instalação do Docker](https://docs.docker.com/get-docker/)
 - [Instalação do Docker Compose](https://docs.docker.com/compose/install/)
+- O arquivo docker-compose.yml já está presente neste repositório e pode ser editado conforme necessário.
 
 ### 2. Editar o arquivo `docker-compose.yml`
 
